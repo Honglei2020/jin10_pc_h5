@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: -apple-system, Helvetica,sans-serif;
+    line-height: 1.5;
+    color: #666;
+    background: url(../images/背景@2x.png) no-repeat;
+    background-size: 375px 3362px;
+    background-color: rgb(20, 21, 48);
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;/* (纵)顺序 */
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.flex-item{
+    margin: 10px;
+}
+
+header{
+    background: url(../images/header@2x.png) no-repeat center 70px;
+    background-size: 358px 400px;
+    width: 358px;
+    height: 350px;
+}
+
+.course{
+    padding-top: 20px;
+}
+
+.course>div{
+    /* border: 2px solid brown; */
+}
+
+.course_title{
+    display: inline-block;
+    width: 252px;
+    height: 68px;
+    /* padding-bottom: 20px; */
+}
+
+.one{
+    position: relative;
+}
+
+.one>img:nth-of-type(1){
+    width: 339px;
+    height: 181px;
+}
+
+.one>img:nth-of-type(2){
+    width: 116px;   
+    height: 55px;
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+    top: -30px;
+}
+
+.one>img:nth-of-type(3){
+    width: 89px;   
+    height: 90px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 45px;
+    margin-left: 0px; 
+    cursor: pointer;
+}
+
+ .description{
+    background: url(../images/形状结合@2x\(2\).png) no-repeat center -200px;
+    background-size: 313px 426px;
+    width: 100%;
+    height: 226px;
+}
+
+
+.description{
+    position: relative;
+}
+
+.description>img{
+    position: relative;
+    width: 313px;
+    height: 426px;
+}
+
+.description>div{
+    padding: 20px 30px 0 30px;
+}
+
+.description>button{
+    position: absolute;
+    margin: 20px 101px 30px 101px;
+    bottom: 0;
+    background: url(../images/btn@2x.png) center center;
+    background-size: 142px 37px;
+    width: 142px;
+    height: 37px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.course_left{
+    position: relative;
+    display: inline-block;
+    padding: 10px 2px 0 2px;
+}
+
+.course_right{
+    position: relative;
+    display: inline-block;
+    padding: 10px 2px 0 2px;
+}
+
+.course_left>img:nth-of-type(1){
+    width: 168px;
+    height: 96px;
+}
+
+.course_left>img:nth-of-type(2){
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 71px;
+    top: 45px;
+}
+
+.course_right>img:nth-of-type(1){
+    width: 168px;
+    height: 96px;
+}
+
+.course_right>img:nth-of-type(2){
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 71px;
+    top: 45px;
+}
+
+.video{
+    position: relative;
+    height: 200px;
+}
+
+.video>img{
+    width: 346px;
+    height: 472px;
+    position: absolute;
+    z-index: -1;
+    top: -280px;
+}
+
+.video_title{
+    background: url(../images/方块@2x.png) no-repeat center center;
+    background-size: 157px 5px;
+    width: 157px;
+    height: 5px;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 5px;
+    color: #fff;
+    margin: 10px auto;
+    font-size: 12px;
+}
+
+
+.right>img:nth-of-type(1){
+    width: 302px;
+    height: 75px;
+}
+
+.right>img:nth-of-type(2){
+    width: 193px;
+    height: 515px;
+    margin-top: 20px;
+}
+
+.footer{
+}
+
+.footer>img:nth-of-type(1){
+    width: 327px;
+    height: 95px;
+    margin-top: 20px;
+}
+
+.footer>img:nth-of-type(2){
+    width: 307px;
+    height: 77px;
+    margin-top: 20px;
+}
+
+.footer>img:nth-of-type(3){
+    width: 81px;
+    height: 81px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+.d_title{
+    width: 290px;
+    margin: 0 auto;
+    color: rgb(218, 219, 254);
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.d_dsp{
+    width: 290px;
+    margin: 0 auto;
+    color: rgb(218, 219, 254);
+    font-size: 12px;
+}
+
+.d_course{
+
+}
+
+.d_con1{
+    width: 150px;
+    font-size: 10px;
+    padding: 0px 5px;
+    color: #fff;
+}
+
+.d_con2{
+    width: 150px;
+    font-size: 10px;
+    padding: 0px 5px;
+    color: #fff;
+}
+
+
+.addwechat{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    margin-left: -180px;
+    z-index: 9999;
+    background: url(../images/按钮@2x.png) no-repeat center center;
+    background-size: 357px 74px;
+    width: 357px;
+    height: 74px;
+    cursor: pointer;
+}
+
+.showerweima{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 99999;
+    margin-left: -65px;
+    margin-top: -66px;
+}
+
+.showerweima img{
+    display: block;
+    width: 133px;
+    height: 131px;
+}
+
+.close{
+    margin: 10px auto;
+    width: 30px;
+    height: 30px;
+    border: 5px solid #fff;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+h2{
+    display: inline-block;
+    color: rgb(193, 194, 238);
+    cursor: pointer;
+    transition: font-weight 1s;
+    margin-left: 10px;
+}
+
+h2:hover{
+    font-weight: 400;   
+}
+
+p{
+    color: rgb(193, 194, 238);
+
+}
+
+button{
+    background: url(../images/btn@2x.png) no-repeat center center;
+    background-size: 142px 37px;
+    width: 142px;
+    height: 37px;
+    text-align: center;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: rgb(43, 36, 74);
+    font-weight: 800;
+}
+
+button:hover{
+    color: brown;
+    font-size: 14px;
+}
