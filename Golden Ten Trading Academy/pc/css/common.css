@@ -1,0 +1,155 @@
+.w{
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.header img{
+    width: 1920px;
+    height: 323px;
+}
+.box{
+    background: url(../images/内容底板@2x.png) no-repeat ;
+    background-size: 1920px 4218px;
+}
+.course{
+    background: url(../images/course_bg.png) no-repeat center center;
+    background-size: 914px 705px;
+    width: 914px;
+    height: 705px;
+}
+
+/* 盒子居中 */
+.x{
+    margin: 0 auto;
+}
+.p{
+    padding-top: 70px;
+}
+/* 浮动 */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+/* course_hd */
+
+/* counse_hd */
+.counse_bd{
+    background: url(../images/course_bg.png) no-repeat center 115px;
+    background-size: 914px 705px;
+    width: 914px;
+    height: 850px;
+}
+
+.hd_top{
+    height: 410px;    
+}
+
+.hd_top>div{
+    width: 457px;
+    height: 360px;
+    border-right: 1px solid brown;
+    padding-left: 40px;
+}
+.course_title{
+    overflow: hidden;
+    white-space: nowrap;
+    /* text-overflow: ellipsis; */
+    background: url(../images/decoration@2x.png) no-repeat;
+    background-size: 124px 69px;
+    width: 380px;
+    height: 100px;
+    padding-top: 50px;
+    border: 1px solid brown;
+}
+
+.jieshao{
+    position: relative;
+    padding-right: 40px;
+}
+.jieshao img{
+    margin: 0;
+}
+.course_title h2{
+    display: inline-block;
+    color: #c1c2ee;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.k{
+    float: left;
+    width: 5px;
+    height: 50px;
+    background-color: #c1c2ee;
+    margin-right: 10px;
+}
+.course_dsp{
+    overflow: hidden;
+    width: 380px;
+    height: 160px;
+    border: 1px solid brown;
+    padding-top: 45px;
+    color: #c1c2ee;
+}
+.buy{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url(../images/btn@2x.png) no-repeat;
+    background-size: 142px 37px;
+    width: 142px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+    color: #2b244a;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+
+
+
+.bottom_hd{
+    background: url(../images/标题方块@2x.png) no-repeat;
+    background-size: 246px 7px;
+    width: 246px;
+    height: 7px;
+    line-height: 7px;
+    color: #fff;
+    text-align: center;
+    margin: 30px auto;
+}
+.bottom_bd{
+    width: 660px;
+    margin: 0 auto;
+}
+.dsp{
+    width: 300px;
+    height: 80px;
+    border: 1px solid brown;
+    color: #fff;
+    margin-top: 10px;
+}
+.add{
+    padding-bottom: 78px;
+    text-align: center;
+}
+
+.add h3{
+    color: #eed0b8;
+    font-size: 16px;
+}
+.add h4{
+    color: #cdcdd2;
+    padding: 10px 0;
+}
+.add span{
+    color: #eed0b8;
+}
+.add p{
+    color: #c5c5cb;
+    font-size: 14px;
+}

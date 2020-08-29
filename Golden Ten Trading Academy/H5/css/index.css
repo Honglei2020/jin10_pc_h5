@@ -13,8 +13,8 @@ body{
     font-family: -apple-system, Helvetica,sans-serif;
     line-height: 1.5;
     color: #666;
-    background: url(../images/背景@2x.png) no-repeat;
-    background-size: 375px 3362px;
+    background: url(../images/背景@2x.png) no-repeat center center;
+    background-size: 100% 100%;
     background-color: rgb(20, 21, 48);
 }
 

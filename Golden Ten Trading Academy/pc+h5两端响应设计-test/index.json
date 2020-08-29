@@ -1,0 +1,50 @@
+dataJson(
+    {   
+        "status" : "success",
+        "data": 
+        [
+            {
+                "title": "课程中的逻辑叠加方法，帮助你建立（完善）交易系统。",
+                "course_img": "./images/pc-images/course1@2x.png",
+                "course_video_url": "./video/myVideo.ogv",
+                "dsp": "利用五个条件（斜率、Pinbar、箱体、RSI、顶底背离）的叠加使用，精确点位，做到客观理性准确入场，再结合仓位控制分布式进场",
+                "button_url": " https://school.jin10.com/course/75",
+                "v_course_naem": "莫凡老师往期公开课",
+                "v_con1": "要获得盈利密码？你需要科学的交易行 为修正！",
+                "v_con2": "对话莫凡老师，用大数据统计解读交易行为的背后逻辑",
+                "v_img1": "./images/pc-images/video1@2x.png",
+                "v_url1": "./video/myVideo.ogv",
+                "v_img2": "./images/pc-images/video2@2x.png",
+                "v_url2": "./video/myVideo.ogv"
+            },
+            {
+                "title": "这套系统最大的特点是高胜率捕捉反转行情，适合抄底和摸顶。手法上日内短线和波段都适用。",
+                "course_img": "./images/pc-images/course2@2x.png",
+                "course_video_url": "./video/myVideo.ogv",
+                "dsp": "TB，Top Bottom简称，TB信号是2B法则基础上优化。建立正确的短线交易理念，辨别各类趋势，清晰数浪，准确使用斐波那契",
+                "button_url": " https://school.jin10.com/course/75",
+                "v_course_naem": "Kevin老师往期公开课",
+                "v_con1": "掌握趋势交易策略，巧妙应用思维导图 为修正！",
+                "v_con2": "提升盘感，你需要掌握这4大实操步骤",
+                "v_img1": "./images/pc-images/video3@2x.png",
+                "v_url1": "./video/myVideo.ogv",
+                "v_img2": "./images/pc-images/video4@2x.png",
+                "v_url2": "./video/myVideo.ogv"
+            },
+            {
+                "title": "没有复杂的技术指标，简单易懂，学完就能用于实盘交易。",
+                "course_img": "./images/pc-images/course3@2x.png",
+                "course_video_url": "./video/myVideo.ogv",
+                "dsp": "趋势的识别、均线的使用、看什么周期做交易、三大维度选择货币对、革兰氏八大法则找到入场的位置、读K术，确认入场时机、严格的风控，",
+                "button_url": " https://school.jin10.com/course/75",
+                "v_course_naem": "莫凡老师往期公开课",
+                "v_con1": "践行这三个要素，从亏损走向盈利",
+                "v_con2": "为什么95%的人在交易中亏损？",
+                "v_img1": "./images/pc-images/video5@2x.png",
+                "v_url1": "./video/myVideo.ogv",
+                "v_img2": "./images/pc-images/video6@2x.png",
+                "v_url2": "./video/myVideo.ogv"
+            }
+        ]
+    }
+)

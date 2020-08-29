@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../images/内容底板@2x.png) no-repeat center ;
+    background-size: 1920px 4218px;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    border: 0;
+    /* vertical-align: middle; */
+}
