@@ -1,0 +1,277 @@
+@import "common";
+body {
+  background: url(../images/pc-images/内容底板@2x.png) no-repeat top center;
+  background-size: cover;
+  line-height: 1.5;
+}
+.row {
+  width: 100%;
+}
+
+.x {
+  margin: 0 auto;
+  max-width: 1920px;
+  // width: 100%;
+}
+// 头部
+header {
+  background: url(../images/pc-images/网页顶部.png) no-repeat center;
+  background-size: cover;
+  height: 323px;
+}
+
+// 课程标题图片
+.course-title {
+  margin-top: 60px;
+  background: url(../images/pc-images/标题1@2x.png) no-repeat;
+  background-size: 100%;
+  width: 465px;
+  height: 117px;
+}
+// 课程主题
+.course-theme {
+  margin-top: 114px;
+  background: url(../images/pc-images/矩形@2x.png) no-repeat bottom center;
+  background-size: 100%;
+  width: 911px;
+  height: 710px;
+}
+// 课程上部
+.course-hd {
+  position: relative;
+  background: url(../images/pc-images/Fill\ 1@2x.png) no-repeat bottom center;
+  background-size: 100%;
+  width: 911px;
+  height: 362px;
+  // pc左浮动课程视频
+  .pc-contral-lr {
+    float: left;
+    padding-left: 30px;
+    width: 460px;
+    height: 344px;
+    position: relative;
+    // 课程视频
+    .course-video {
+      position: absolute;
+      top: -45px;
+      // left: 30px;
+      background: url(../images/pc-images/course1@2x.png) no-repeat;
+      background-size: 100%;
+      width: 426px;
+      height: 348px;
+      // 课程播放按钮
+      .video-mask {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background: url(../images/pc-images/播放@2x.png) no-repeat;
+        background-size: 100%;
+        width: 87px;
+        height: 87px;
+      }
+    }
+  }
+}
+
+.course-con {
+  padding-left: 30px;
+  float: left;
+  position: relative;
+  width: 450px;
+  // PC端ONE
+  .cousre-number {
+    position: absolute;
+    top: -41px;
+    background: url(../images/h5-images/one备份\ 2@2x.png) no-repeat;
+    background-size: 100%;
+    width: 165px;
+    height: 73px;
+  }
+  // 课程文字标题
+  .con-title {
+    background: url(../images/pc-images/decoration@2x.png) no-repeat 15px;
+    background-size: 124px 69px;
+    padding: 62px 0;
+    &::before {
+      content: "";
+      float: left;
+      width: 5px;
+      height: 50px;
+      background-color: #c1c2ee;
+    }
+    h2 {
+      padding-left: 12px;
+      float: left;
+      width: 365px;
+      font-size: 16px;
+      color: #c1c2ee;
+    }
+  }
+  // 课程描述
+  .con_dsp {
+    // 字体溢出
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    // 字体
+    font-weight: lighter;
+    width: 370px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #c1c2ee;
+  }
+  .con-buy {
+    position: absolute;
+    bottom: -46px;
+    right: 60px;
+    background: url(../images/h5-images/btn@2x.png) no-repeat;
+    background-size: 142px 37px;
+    width: 142px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+    color: #2b244a;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+
+// 课程底部
+.course-bd {
+  .bd-title {
+    margin: 25px auto;
+    background: url(../images/pc-images/标题方块@2x.png) no-repeat;
+    background-size: 100%;
+    width: 246px;
+    height: 7px;
+    line-height: 7px;
+    text-align: center;
+    color: #fff;
+  }
+  .bd-video1 {
+    position: relative;
+    background: url(../images/pc-images/video1.png) no-repeat;
+    background-size: 100%;
+    width: 294px;
+    height: 165px;
+  }
+  .bd-video2 {
+    position: relative;
+    background: url(../images/pc-images/video2.png) no-repeat;
+    background-size: 100%;
+    width: 294px;
+    height: 165px;
+  }
+  .bd-mask{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: url(../images/pc-images/播放@2x.png) no-repeat;
+    background-size: 100%;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+  }
+}
+.v1 {
+  margin-right: 45px;
+}
+.v2 {
+  margin-left: 45px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.video-dsp {
+  width: 294px;
+  padding-top: 15px;
+  font-size: 14px;
+  color: #fff;
+  // 字体溢出
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+
+
+.right-title {
+  margin: 85px auto 80px;
+  background: url(../images/pc-images/标题2@2x.png) no-repeat;
+  background-size: 100%;
+  width: 555px;
+  height: 129px;
+}
+
+.right-con {
+  background: url(../images/pc-images/rights@2x.png) no-repeat;
+  background-size: 100%;
+  width: 918px;
+  height: 401px;
+}
+
+.fuli-title {
+  margin: 126px auto 78px;
+  background: url(../images/pc-images/标题3@2x.png) no-repeat;
+  background-size: 100%;
+  width: 597px;
+  height: 140px;
+}
+.fuli-con {
+  margin-bottom: 57px;
+  background: url(../images/pc-images/688@2x.png) no-repeat;
+  background-size: 100%;
+  width: 733px;
+  height: 171px;
+}
+
+.fuli-addweixin {
+  padding-bottom:150px;
+  .weixin {
+    margin: 0 auto;
+    margin-bottom:  60px;
+    background: url(../images/h5-images/二维码@2x.png) no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+  }
+  .weixintext{
+    &::before{
+      margin: 0 auto;
+      display: block;
+      content: "微信扫码立即领取";
+      text-align: center;
+      font-size: 30px;
+      font-weight: 700;
+      color: #eed0b8;
+    }
+    &::after{
+      margin: 0 auto;
+      display: block;
+      content: "她的朋友圈有点意思,要不加上看看";
+      text-align: center;
+      font-size: 16px;
+      color: #cdcdd2;
+    }
+    p {
+      text-align: center; 
+        color: #cdcdd2;
+        font-weight: 700;
+        font-size: 16px;
+      span {
+        color: #eed0b8;
+        font-weight: 700;
+      }
+    }
+  }
+  
+}

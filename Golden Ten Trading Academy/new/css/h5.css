@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+html {
+  font-size: 50px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 21.33333333px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 23.8;
+  }
+}
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 26.66666667px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 42.66666667px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 736px) {
+  html {
+    font-size: 49.06666667px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 51.2px;
+  }
+}
+@media screen and (min-width: 823px) {
+  html {
+    font-size: 54.86666667px;
+  }
+}
+@media screen and (min-width: 823px) {
+  html {
+    font-size: 8.23px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 10.24px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  html {
+    font-size: 13.66px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 19.2px;
+  }
+}
+body {
+  background: url(../images/h5-images/背景@2x.png) no-repeat top center;
+  background-size: cover;
+  background-color: #141530;
+}
+.x {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+header {
+  margin-top: 1.2rem !important;
+  background: url(../images/h5-images/header@2x.png) no-repeat top center;
+  background-size: 100%;
+  height: 12rem;
+}
+.course-title {
+  background: url(../images/h5-images/标题1@2x.png) no-repeat;
+  background-size: 100%;
+  width: 10.06rem;
+  height: 2.72rem;
+}
+.course-theme {
+  margin-top: 1.8rem;
+  background: url(../images/h5-images/矩形.png) no-repeat bottom center;
+  background-size: 100%;
+  width: 13.8rem;
+  height: 25.46rem;
+}
+.course-hd {
+  background: url(../images/h5-images/形状结合@2x\(2\).png) no-repeat bottom center;
+  background-size: 12.52rem 17.04rem;
+  width: 12.52rem;
+  width: 100%;
+  height: 17.04rem;
+}
+.course-hd .course-video {
+  position: relative;
+  margin: 0 auto;
+  background: url(../images/h5-images/course1@2x.png) no-repeat;
+  background-size: 100%;
+  width: 13.54rem;
+  height: 7.24rem;
+}
+.course-hd .course-video .video-mask {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: url(../images/h5-images/播放键@2x.png) no-repeat;
+  background-size: 100%;
+  width: 3.56rem;
+  height: 3.56rem;
+}
+.course-hd .course-video .cousre-number {
+  position: absolute;
+  left: 0.36rem;
+  top: -1.1rem;
+  background: url(../images/h5-images/one备份\ 2@2x.png) no-repeat;
+  background-size: 100%;
+  width: 4.64rem;
+  height: 2.18rem;
+}
+.course-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 10.48rem;
+  height: 9.16rem;
+  padding-top: 1.2rem;
+}
+.course-con .con-title {
+  padding-top: 0.8rem;
+  order: 2;
+}
+.course-con .con-title::before {
+  content: "";
+  float: left;
+  width: 0.22rem;
+  height: 1.48rem;
+  background-color: #c1c2ee;
+}
+.course-con .con-title h2 {
+  padding-left: 0.46rem;
+  font-size: 0.3rem;
+  color: #c1c2ee;
+}
+.course-con .con_dsp {
+  order: 1;
+  font-size: 0.5rem;
+  color: #c1c2ee;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.course-con .con-buy {
+  order: 3;
+  background: url(../images/h5-images/btn@2x.png) no-repeat;
+  background-size: 100%;
+  width: 5.66rem;
+  height: 1.48rem;
+  text-align: center;
+  line-height: 1.48rem;
+  font-size: 0.56rem;
+  font-weight: bold;
+}
+.bd-title {
+  margin: 0.72rem auto 0.34rem;
+  background: url(../images/h5-images/方块@2x.png) no-repeat;
+  background-size: 100%;
+  width: 6.26rem;
+  height: 0.2rem;
+  line-height: 0.2rem;
+  text-align: center;
+  font-size: 0.44rem;
+  color: #fff;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+.bd-video1 {
+  position: relative;
+  background: url(../images/h5-images/video1@2x.png) no-repeat;
+  background-size: 100%;
+  width: 6.7rem;
+  height: 3.84rem;
+}
+.bd-video2 {
+  position: relative;
+  background: url(../images/h5-images/video2@2x.png) no-repeat;
+  background-size: 100%;
+  width: 6.7rem;
+  height: 3.84rem;
+}
+.bd-mask {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url(../images/h5-images/播放@2x.png) no-repeat;
+  background-size: 100%;
+  width: 1.02rem;
+  height: 1.02rem;
+}
+.video-dsp {
+  width: 6.7rem;
+  font-size: 0.4rem;
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.right-title {
+  margin: 1.2rem auto 2.2rem;
+  background: url(../images/h5-images/标题2@2x.png) no-repeat;
+  background-size: 100%;
+  width: 12.06rem;
+  height: 3rem;
+}
+.right-con {
+  background: url(../images/h5-images/rights@2x.png) no-repeat;
+  background-size: 100%;
+  width: 7.7rem;
+  height: 20.6rem;
+}
+.fuli-title {
+  margin: 1.52rem auto 1.2rem;
+  background: url(../images/h5-images/标题3@2x.png) no-repeat;
+  background-size: 100%;
+  width: 13.08rem;
+  height: 3.78rem;
+}
+.fuli-con {
+  margin-bottom: 0.34rem;
+  background: url(../images/h5-images/688@2x.png) no-repeat;
+  background-size: 100%;
+  width: 12.26rem;
+  height: 3.08rem;
+}
+.fuli-addweixin {
+  padding-bottom: 2.48rem;
+  background: url(../images/h5-images/底部二维码栏@2x.png) no-repeat center center;
+  background-size: 9.84rem 10.64rem;
+}
+.fuli-addweixin .weixin {
+  margin: 0 auto;
+  margin-bottom: 0.54rem;
+  background: url(../images/h5-images/二维码@2x.png) no-repeat;
+  background-size: 100%;
+  width: 3.22rem;
+  height: 3.22rem;
+}
+.fuli-addweixin .weixintext::before {
+  margin: 0 auto;
+  display: block;
+  content: "长按二维码立即领取";
+  text-align: center;
+  font-size: 0.7rem;
+  color: #eed0b8;
+  font-weight: 700;
+}
+.fuli-addweixin .weixintext p {
+  text-align: center;
+  color: #cdcdd2;
+  font-weight: 700;
+  font-size: 0.34rem;
+}
+.fuli-addweixin .weixintext p span {
+  color: #eed0b8;
+  font-weight: 700;
+}

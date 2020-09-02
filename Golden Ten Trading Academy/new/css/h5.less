@@ -1,0 +1,245 @@
+@import "common";
+@basefont: 50;
+body {
+  background: url(../images/h5-images/背景@2x.png) no-repeat top center;
+  background-size: cover;
+  background-color: #141530;
+}
+
+.x {
+  margin: 0 auto;
+  max-width: 1920px;
+  // width: 100%;
+}
+// 头部
+header {
+  margin-top: 60rem / @basefont !important;
+  background: url(../images/h5-images/header@2x.png) no-repeat top center;
+  background-size: 100%;
+  height: 600rem / @basefont;
+}
+// 课程标题图片
+.course-title {
+  background: url(../images/h5-images/标题1@2x.png) no-repeat;
+  background-size: 100%;
+  width: 503rem / @basefont;
+  height: 136rem / @basefont;
+}
+// 课程主题
+.course-theme {
+  margin-top: 90rem / @basefont;
+  background: url(../images/h5-images/矩形.png) no-repeat bottom center;
+  background-size: 100%;
+  width: 690rem / @basefont;
+  height: 1273rem / @basefont;
+}
+
+// 课程上部
+.course-hd {
+  // margin: 0 auto;
+  background: url(../images/h5-images/形状结合@2x\(2\).png) no-repeat bottom
+    center;
+  background-size: 626rem / @basefont 852rem / @basefont;
+  width: 626rem / @basefont;
+  width: 100%;
+  height: 852rem / @basefont;
+  // 课程大视频
+  .course-video {
+    position: relative;
+    margin: 0 auto;
+    background: url(../images/h5-images/course1@2x.png) no-repeat;
+    background-size: 100%;
+    width: 677rem / @basefont;
+    height: 362rem / @basefont;
+    // 视频播放按钮
+    .video-mask {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background: url(../images/h5-images/播放键@2x.png) no-repeat;
+      background-size: 100%;
+      width: 178rem / @basefont;
+      height: 178rem / @basefont;
+    }
+    // 移动端ONE
+    .cousre-number {
+      position: absolute;
+      left: 18rem / @basefont;
+      top: -55rem / @basefont;
+      // top: -55px;
+      background: url(../images/h5-images/one备份\ 2@2x.png) no-repeat;
+      background-size: 100%;
+      width: 232rem / @basefont;
+      height: 109rem / @basefont;
+    }
+  }
+}
+
+.course-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 524rem / @basefont;
+  height: 458rem / @basefont;
+  padding-top: 60rem / @basefont;
+  // 课程文字标题
+  .con-title {
+    padding-top: 40rem / @basefont;
+    order: 2;
+    &::before {
+      content: "";
+      float: left;
+      width: 11rem / @basefont;
+      height: 74rem / @basefont;
+      background-color: #c1c2ee;
+    }
+    h2 {
+      padding-left: 23rem / @basefont;
+      font-size: 15rem / @basefont;
+      color: #c1c2ee;
+    }
+  }
+  // 课程描述
+  .con_dsp {
+    order: 1;
+    font-size: 25rem / @basefont;
+    color: #c1c2ee;
+    // 字体溢出
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+  .con-buy {
+    order: 3;
+    background: url(../images/h5-images/btn@2x.png) no-repeat;
+    background-size: 100%;
+    width: 283rem / @basefont;
+    height: 74rem / @basefont;
+    text-align: center;
+    line-height: 74rem / @basefont;
+    font-size: 28rem / @basefont;
+    font-weight: bold;
+  }
+}
+.bd-title {
+  margin: 36rem / @basefont auto 17rem / @basefont;
+  background: url(../images/h5-images/方块@2x.png) no-repeat;
+  background-size: 100%;
+  width: 313rem / @basefont;
+  height: 10rem / @basefont;
+  line-height: 10rem / @basefont;
+  text-align: center;
+  font-size: 22rem / @basefont;
+  color: #fff;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+.bd-video1 {
+  position: relative;
+  background: url(../images/h5-images/video1@2x.png) no-repeat;
+  background-size: 100%;
+  width: 335rem / @basefont;
+  height: 192rem / @basefont;
+}
+.bd-video2 {
+  position: relative;
+  background: url(../images/h5-images/video2@2x.png) no-repeat;
+  background-size: 100%;
+  width: 335rem / @basefont;
+  height: 192rem / @basefont;
+}
+.bd-mask {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url(../images/h5-images/播放@2x.png) no-repeat;
+  background-size: 100%;
+  width: 51rem / @basefont;
+  height: 51rem / @basefont;
+}
+.video-dsp {
+  width: 335rem / @basefont;
+
+  font-size: 20rem / @basefont;
+  color: #fff;
+  // 字体溢出
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.right-title {
+  margin: 60rem / @basefont auto 110rem / @basefont;
+  background: url(../images/h5-images/标题2@2x.png) no-repeat;
+  background-size: 100%;
+  width: 603rem / @basefont;
+  height: 150rem / @basefont;
+}
+
+.right-con {
+  background: url(../images/h5-images/rights@2x.png) no-repeat;
+  background-size: 100%;
+  width: 385rem / @basefont;
+  height: 1030rem / @basefont;
+}
+
+.fuli-title {
+  margin: 76rem / @basefont auto 60rem / @basefont;
+  background: url(../images/h5-images/标题3@2x.png) no-repeat;
+  background-size: 100%;
+  width: 654rem / @basefont;
+  height: 189rem / @basefont;
+}
+.fuli-con {
+  margin-bottom: 17rem / @basefont;
+  background: url(../images/h5-images/688@2x.png) no-repeat;
+  background-size: 100%;
+  width: 613rem / @basefont;
+  height: 154rem / @basefont;
+}
+
+.fuli-addweixin {
+  padding-bottom: 124rem / @basefont;
+  background: url(../images/h5-images/底部二维码栏@2x.png) no-repeat center
+    center;
+  background-size: 492rem / @basefont 532rem / @basefont;
+  .weixin {
+    margin: 0 auto;
+    margin-bottom: 27rem / @basefont;
+    background: url(../images/h5-images/二维码@2x.png) no-repeat;
+    background-size: 100%;
+    width: 161rem / @basefont;
+    height: 161rem / @basefont;
+  }
+  .weixintext {
+    &::before {
+      margin: 0 auto;
+      display: block;
+      content: "长按二维码立即领取";
+      text-align: center;
+      font-size: 35rem / @basefont;
+      color: #eed0b8;
+      font-weight: 700;
+    }
+    p {
+      text-align: center;
+
+      color: #cdcdd2;
+      font-weight: 700;
+      font-size: 17rem / @basefont;
+      span {
+        color: #eed0b8;
+        font-weight: 700;
+      }
+    }
+  }
+}
